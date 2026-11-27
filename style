@@ -1,1 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background: #3a3a3a;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+header {
+    background: #222222;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 35px;
+    color: #a5a5a5;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 15px;
+}
+
+section {
+    background: #4b4b4b;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.camera img {
+    width: 100%;
+    max-width: 500px;
+    min-height: 200px;
+    background: #181818;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.middle {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    background: #c4c4c4;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #a3a3a3;
+}
+
+#status, #cameraStatus {
+    color: #000000;
+}
+
+footer {
+    padding: 20px;
+    color: #aaa;
+}
